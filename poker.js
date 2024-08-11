@@ -1,5 +1,3 @@
-const url = 'http://localhost:3030/';
-const url2 = 'http://localhost:3030/quantidadedecartas'
 let mao = 0;
 const maxCartas = 5;
 const maxMao = 2;
@@ -123,7 +121,7 @@ async function drawHand2(cartas){
       for(let i=0;i<2;i++){
         cartas.push(cards.cards[i].code);
         hand2Img[i] = cards.cards[i].images.png;
-        cardImages[mao+7+i].src = 'C:/Users/Emerson/new-api/src/Imagem Fundo/card back orange.png';
+        cardImages[mao+7+i].src = 'Imagem Fundo/card back orange.png';
         } 
   botao.textContent="Aposte";
   betSizeText.style.display = "block";
